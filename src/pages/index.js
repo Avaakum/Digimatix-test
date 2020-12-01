@@ -8,7 +8,9 @@ window.addEventListener('DOMContentLoaded', () => {
   require('./index.sass');
 
   const slider = require('../scripts/slider.js');
+  const form = require('../scripts/form.js');
 
   slider();
+  form();
 
 });

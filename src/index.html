@@ -13,7 +13,7 @@
     <!-- .section.page__ -->
 
     <header class="header section page__header">
-      <div class="header__logo"></div>
+      <a href="#" class="header__logo"></a>
       <button class="header__cta-button button button_type_white" type="button" aria-label="Заказать билет">Закажите ваш
         билет</button>
     </header>
@@ -141,8 +141,40 @@
         </ul>
       </section>
 
+      <section class="form section">
+        <div class="page__form">
+          <h2 class="form__title">
+            Остались вопросы?
+          </h2>
+          <p class="form__subtitle">
+            Задача организации, в особенности же курс на социально-ориентированный национальный проект позволяет оценить
+            значение модели развития.
+          </p>
+          <form action="#" class="form__cta" method="POST" name="form">
+            <label for="fname" class="form__label">
+              <input type="text" id="fname" name="fname"
+                class="form__input form__input_theme_purple form__input_type_name" placeholder="Иванов Илья" required>
+              <span class="form__input-label-name">Имя</span>
+              <span class="form__input-line-name"></span>
+            </label>
+
+            <label for="fnumber" class="form__label">
+              <input type="text" name="fnumber" id="fnumber"
+                class="form__input form__input_theme_purple form__input_type_number"
+                placeholder="+7 ( 9 9 9 ) 9 9 9 - 9 9 - 9 9" required>
+              <span class="form__input-label-number">Телефон</span>
+              <span class="form__input-line-number"></span>
+            </label>
+
+            <input type="email" name="femail" class="form__input form__input_type_email" placeholder="Email">
+            <button type="submit" class="button form__submit" aria-label="Отправить">Отправить</button>
+          </form>
+        </div>
+      </section>
+
     </main>
     <footer class="footer">
+      <a href="#" class="footer__logo-link"><img src="./src/" alt="" class="footer__logo"></a>
 
     </footer>
 

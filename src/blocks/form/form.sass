@@ -1,0 +1,129 @@
+.form
+  display: flex
+  flex-direction: column
+  align-items: center
+  background: #000000 url('../images/form-section/form-section__bg2.jpg') no-repeat top center/contain
+  color: #ffffff
+  text-align: center
+  &__title
+    @extend %mont-bold
+    font-size: 32px
+    line-height: 40px
+    margin: 0
+    margin-bottom: 32px
+  &__subtitle
+    text-align: center
+    @extend  %roboto-regular
+    font-size: 20px
+    line-height: 28px
+    margin: 0
+    margin-bottom: 48px
+    max-width: 560px
+  &__cta
+    width: 100%
+    display: flex
+    justify-content: space-between
+  &__label
+    display: inline-block
+    position: relative
+  &__input
+    @extend %roboto-bold
+    font-size: 16px
+    line-height: 24px
+    width: 256px
+    height: 72px
+    box-sizing: border-box
+    border-radius: 6px
+    background-color: transparent
+    position: relative
+    padding: 24px
+    outline: none
+    cursor: pointer
+    z-index: 11
+    -webkit-transition: 0.3s
+    -moz-transition: 0.4s
+    -ms-transition: 0.4s
+    -o-transition: 0.4s
+    transition: 0.4s
+    &:hover
+      box-shadow: 0 0 20px rgba(255, 255, 255, .2)
+    &_theme
+      &_purple
+        border: none
+        border-top: none
+        padding-left: 24px
+        color: #BB6BD9
+        &::-webkit-input-placeholder
+          color: #BB6BD9
+        &::-moz-placeholder
+          color: #BB6BD9
+        &:-moz-placeholder
+          color: #BB6BD9
+        &:-ms-input-placeholder
+          color: #BB6BD9
+    &_type
+      // &_name
+      // &_number
+      &_email
+        border: 1px solid #FFFFFF
+        color: #ffffff
+        &::-webkit-input-placeholder
+          color: #ffffff
+        &::-moz-placeholder
+          color: #ffffff
+        &:-moz-placeholder
+          color: #ffffff
+        &:-ms-input-placeholder
+          color: #ffffff
+    &-line-name
+      position: absolute
+      top: 0
+      left: 0
+      background: url('../images/form-section/rect.svg') center/100% no-repeat
+      z-index: 10
+      width: 256px
+      height: 72px
+    &-line-number
+      position: absolute
+      top: 0
+      left: 0
+      background: url('../images/form-section/rect2.svg') center/100% no-repeat
+      z-index: 10
+      width: 256px
+      height: 72px
+    &-label
+      &-name
+        position: absolute
+        top: -15px
+        left: 22px
+        @extend %roboto-regular
+        font-size: 12px
+        line-height: 32px
+        color: #ffffff
+      &-number
+        position: absolute
+        top: -15px
+        left: 22px
+        @extend %roboto-regular
+        font-size: 12px
+        line-height: 32px
+        color: #ffffff
+  &__submit
+    @extend %roboto-bold
+    font-size: 16px
+    line-height: 24px
+    padding: 24px 81.5px
+    border: none
+    background: $main-color
+    color: #ffffff
+    text-transform: uppercase
+    border-radius: 6px
+    outline: none
+    &:hover
+      box-shadow: 0 0 20px rgba(255, 255, 255, .4)
+
+
+
+
+
+
