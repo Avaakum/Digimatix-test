@@ -3,9 +3,17 @@
   top: -120px
   color: #ffffff
   display: flex
+  justify-content: center
   flex-direction: column
   background: #000000 url('../images/intro/intro__bg.jpg') no-repeat top center/100% 100%
   z-index: 1
+  &__description
+    position: relative
+    z-index: 10
+    min-width: 576px
+    margin-right: 32px
+    padding-bottom: 198px
+    transform: translateX(58px)
   &__title
     @extend %mont-bold
     font-size: 48px
@@ -31,12 +39,9 @@
     &:hover
       box-shadow: 0 0 20px rgba(255, 255, 255, .4)
   &__main-img
-    position: absolute
-    // right: 356px
-    // right: 306px
-    right: 12vw
-    // top: 115px
-    top: 128px
+    left: 40px
+    top: 176px
+    position: relative
     z-index: 2
 
 

@@ -8,6 +8,23 @@
 </head>
 
 <body class="page">
+  <script src="https://yastatic.net/browser-updater/v1/script.js" charset="utf-8"></script>
+  <script>
+    var yaBrowserUpdater = new ya.browserUpdater.init({
+      "lang": "ru",
+      "browsers": {
+        "chrome": "85",
+        "ie": "9",
+        "edge": "85",
+        "opera": "71",
+        "safari": "13",
+        "fx": "81",
+      },
+      "theme": "blue",
+      "remember": false,
+      "exclusive": false,
+    });
+  </script>
 
   <div class="page__container">
 
@@ -20,20 +37,22 @@
 
       <section class="intro section">
         <div class="page__intro">
-          <h1 class="intro__title">
-            До луны и обратно
-          </h1>
-          <p class="intro__subtitle">
-            Задача организации, в особенности же курс на социально-ориентированный национальный проект позволяет оценить
-            значение модели развития.
-          </p>
-          <div class="intro__button-box">
-            <button class="intro__about-button button button_type_white" type="button"
-              aria-label="Подробнее о нас">Подробнее о нас</button>
-            <button class="intro__play-button button" type="button" aria-label="Play"></button>
+          <div class="intro__description">
+            <h1 class="intro__title">
+              До луны и обратно
+            </h1>
+            <p class="intro__subtitle">
+              Задача организации, в особенности же курс на социально-ориентированный национальный проект позволяет оценить
+              значение модели развития.
+            </p>
+            <div class="intro__button-box">
+              <button class="intro__about-button button button_type_white" type="button"
+                aria-label="Подробнее о нас">Подробнее о нас</button>
+              <button class="intro__play-button button" type="button" aria-label="Play"></button>
           </div>
+          </div>
+          <img class="intro__main-img rotation" src="./images/intro/intro__image.png" alt="Большая Луна">
         </div>
-        <img class="intro__main-img rotation" src="./images/intro/intro__image.png" alt="Большая Луна">
       </section>
 
       <section class="features section page__features">
@@ -183,23 +202,7 @@
 
 
 
-  <!-- <script src="https://yastatic.net/browser-updater/v1/script.js" charset="utf-8"></script>
-  <script>
-    var yaBrowserUpdater = new ya.browserUpdater.init({
-      "lang": "ru",
-      "browsers": {
-        "chrome": "85",
-        "ie": "9",
-        "edge": "85",
-        "opera": "71",
-        "safari": "13",
-        "fx": "81",
-      },
-      "theme": "blue",
-      "remember": false,
-      "exclusive": false,
-    });
-  </script> -->
+
 </body>
 
 </html>
