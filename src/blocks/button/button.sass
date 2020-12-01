@@ -1,0 +1,25 @@
+.button
+  outline: none
+  cursor: pointer
+  border: none
+  -webkit-transition: 0.3s
+  -moz-transition: 0.3s
+  -ms-transition: 0.3s
+  -o-transition: 0.3s
+  transition: 0.3s
+  &_type_white
+    border-radius: 6px
+    background-color: #ffffff
+    color: $main-color
+    padding: 8px 12px
+    @extend %roboto-black
+    font-size: 12px
+    line-height: 24px
+    letter-spacing: 1px
+    text-transform: uppercase
+    &:hover
+      color: lighten($main-color, 20)
+      box-shadow: 0 0 30px rgba(255, 255, 255, .4)
+      // box-shadow: 0 0 30px rgba(81, 1, 166, 1)
+
+

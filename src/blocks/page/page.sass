@@ -1,0 +1,84 @@
+$main-color: #5101A6
+
+%roboto-regular
+  font-family: 'Roboto', Arial, Helvetica, sans-serif
+  font-weight: 400
+  font-style: normal
+
+%roboto-bold
+  font-family: 'Roboto', Arial, Helvetica, sans-serif
+  font-weight: 700
+  font-style: normal
+
+%roboto-black
+  font-family: 'Roboto', Arial, Helvetica, sans-serif
+  font-weight: 900
+  font-style: normal
+
+%mont-bold
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif
+  font-weight: 700
+  font-style: normal
+
+.page
+  // background: #000002
+  // background: #0B0B0B
+  background: #ffffff
+  color: #000000
+  margin: 0
+  -moz-osx-font-smoothing: grayscale
+  -webkit-font-smoothing: antialiased
+  -webkit-text-size-adjust: 100%
+  -ms-text-size-adjust: 100%
+  -moz-text-size-adjust: 100%
+  text-rendering: optimizeLegibility
+  @extend %roboto-regular
+  &__container
+    max-width: 1920px
+    width: 100%
+    min-height: 100vh
+    display: flex
+    flex-direction: column
+    margin: 0 auto
+    padding: 40px 0
+    position: relative
+  &__header
+    margin: 0 auto
+    max-width: 1217px
+    padding-bottom: 40px
+  &__intro
+    min-height: 680px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: flex-start
+    width: 100%
+    margin: 0 auto
+    max-width: 1217px
+  &__features
+    min-height: 764px
+    padding: 50px 0 96px
+    max-width: 1277px
+    margin: 0 auto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// @media screen and ( max-width: 1280px )
+//   .page
+//     &__container
+//       max-width: calc(100% - 63px)

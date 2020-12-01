@@ -1,0 +1,45 @@
+.intro
+  position: relative
+  top: -120px
+  color: #ffffff
+  display: flex
+  flex-direction: column
+  background: #000000 url('../images/intro/intro__bg.jpg') no-repeat top center/100% 100%
+  z-index: 1
+  &__title
+    @extend %mont-bold
+    font-size: 48px
+    line-height: 56px
+    margin: 0
+    margin-bottom: 48px
+  &__subtitle
+    @extend %roboto-regular
+    font-size: 20px
+    line-height: 28px
+    margin: 0
+    margin-bottom: 48px
+    max-width: 562px
+  &__button-box
+    display: flex
+  &__about-button
+    margin-right: 16px
+  &__play-button
+    width: 48px
+    height: 48px
+    border-radius: 50%
+    background: $main-color url('../images/intro/play.svg') center no-repeat
+    &:hover
+      box-shadow: 0 0 20px rgba(255, 255, 255, .4)
+  &__main-img
+    position: absolute
+    // right: 356px
+    // right: 306px
+    right: 12vw
+    // top: 115px
+    top: 128px
+    z-index: 2
+
+
+
+
+

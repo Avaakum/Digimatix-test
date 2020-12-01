@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('./Roboto-Regular.eot');
+  src: local('Roboto'), local('Roboto-Regular'),
+    url('./Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./Roboto-Regular.woff') format('woff'),
+    url('./Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Bold.eot');
+  src: local('Roboto Bold'), local('Roboto-Bold'),
+    url('Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+    url('Roboto-Bold.woff') format('woff'),
+    url('Roboto-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Black.eot');
+  src: local('Roboto Black'), local('Roboto-Black'),
+    url('Roboto-Black.eot?#iefix') format('embedded-opentype'),
+    url('Roboto-Black.woff') format('woff'),
+    url('Roboto-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./Montserrat-Bold.woff') format('woff'),
+    url('./Montserrat-Bold.ttf') format('truetype');
+}
+
