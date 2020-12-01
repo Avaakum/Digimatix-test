@@ -1,8 +1,8 @@
 const valid  = () => {
-  
+
   // Валидация данных ввода телефона в инпуты
   document.body.addEventListener("input", e => {
-    let target = e.target;
+    const target = e.target;
 
     if (target.getAttribute("type") === "tel") {
       target.value = "+" + target.value.replace(/[^0-9]/g, "");
