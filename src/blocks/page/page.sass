@@ -46,9 +46,11 @@ $main-color: #5101A6
     padding-bottom: 40px
   &__intro
     max-height: 680px
-    display: flex
-    justify-content: center
-    align-items: flex-end
+    display: grid
+    grid-template-rows: 1fr
+    grid-template-columns: repeat(4, 1fr)
+    grid-gap: 64px
+    grid-template-areas: 'text text moon moon'
     width: 100%
     margin: 0 auto
     max-width: 1217px

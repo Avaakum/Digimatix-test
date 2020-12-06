@@ -5,15 +5,15 @@
   display: flex
   justify-content: center
   flex-direction: column
-  background: #000000 url('../images/intro/intro__bg.jpg') no-repeat top center/100% 100%
+  background: #000000 url('../images/intro/intro_bg_x.jpg') no-repeat top center/cover
   z-index: 1
   &__description
     position: relative
     z-index: 10
-    min-width: 576px
-    margin-right: 32px
-    padding-bottom: 198px
-    transform: translateX(58px)
+    max-width: 576px
+    grid-area: text
+    place-self: start
+    padding-top: 197px
   &__title
     @extend %mont-bold
     font-size: 48px
@@ -26,11 +26,12 @@
     line-height: 28px
     margin: 0
     margin-bottom: 48px
-    max-width: 562px
+    max-width: 561px
   &__button-box
     display: flex
   &__about-button
     margin-right: 16px
+    padding: 8px 17px
   &__play-button
     width: 48px
     height: 48px
@@ -39,10 +40,12 @@
     &:hover
       box-shadow: 0 0 20px rgba(255, 255, 255, .4)
   &__main-img
-    left: 40px
-    top: 176px
+    left: -51px
+    top: 127px
     position: relative
     z-index: 2
+    grid-area: moon
+
 
 
 

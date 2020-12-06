@@ -21,8 +21,10 @@
     max-width: 560px
   &__cta
     width: 100%
-    display: flex
-    justify-content: space-between
+    display: grid
+    grid-template-rows: 1fr
+    grid-template-columns: repeat(4, 1fr)
+    grid-gap: 64px
   &__label
     display: inline-block
     position: relative

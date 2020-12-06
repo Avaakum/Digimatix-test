@@ -11,7 +11,7 @@ module.exports = {
       filename: 'main.js',
       publicPath: '',
     },
-    mode: 'production',
+    mode: 'development',
     devServer: {
       contentBase: path.resolve(__dirname, './dist'),
       open: true,
